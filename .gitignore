@@ -1,0 +1,59 @@
+# Секреты
+data/credentials.txt
+api yandex
+"api yandex"
+
+# Старые артефакты Selenium (если остались)
+data/chrome_profile/
+data/firefox_profile/
+data/cookies.json
+
+# Результаты
+output/*
+!output/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Логи
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Драйверы
+chromedriver*
+geckodriver*
+*.exe
+
+# Виртуальное окружение
+.venv/
+venv/
+env/
